@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: palegreen;
+            height: 400px;
+            width: 500px;
+            border: 1px solid black;
+            background-size: cover;
+        }
+        .kotak{
+            height: 110px;
+            width: 500px;
+            border: 2px solid black;
+        }
+        .gam1{
+            border: 2px solid black;
+            height: 90px;
+            width: 110px;
+            margin: 5px 5px 5px 5px;
+            float: left;
+            background-image: url(1.jpg);
+            background-size: cover;
+        }
+        .gam2{
+            border: 2px solid yellow;
+            height: 90px;
+            width: 110px;
+            margin: 5px 5px 5px 5px;
+            float: left;
+            background-image: url(2.jpg);
+            background-size: cover;
+        }
+        .gam3{
+            border: 2px solid black;
+            height: 90px;
+            width: 110px;
+            margin: 5px 5px 5px 5px;
+            float: left;
+            background-image: url(3.jpg);
+            background-size: cover;
+        }
+        .gam4{
+            border: 2px solid yellow;
+            height: 90px;
+            width: 110px;
+            margin: 5px 5px 5px 5px;
+            float: left;
+            background-image: url(4.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="con" class="container"></div>
+
+    <div class="kotak">
+        <div class="gam1" onclick="ubah1()"></div>
+        <div class="gam2" onclick="ubah2()"></div>
+        <div class="gam3" onclick="ubah3()"></div>
+        <div class="gam4" onclick="ubah4()"></div>
+    </div>
+    
+</body>
+
+<script>
+    function ubah1(){
+        document.getElementById('con').style.backgroundImage="url(1.jpg)";
+    }
+    function ubah2(){
+        document.getElementById('con').style.backgroundImage="url(2.jpg)";
+    }
+    function ubah3(){
+        document.getElementById('con').style.backgroundImage="url(3.jpg)";
+    }
+    function ubah4(){
+        document.getElementById('con').style.backgroundImage="url(4.jpg)";
+    }
+</script>
+</html>
