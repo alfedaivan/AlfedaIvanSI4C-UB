@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .mode{
+        width: 150px;
+        height: 100px;
+        background-color: cadetblue;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border: black ;
+        }
+
+
+        .container{
+            background-color: rgb(236, 233, 197);
+            border:2px solid black;
+            width: 600px;
+            height: 1000px;
+            margin: 50px auto;
+            position: relative;
+        
+        }
+
+        .Judul{
+            background-color: darkorange;
+            border: 2px solid black;
+            width: 600px;
+            height: 100px;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-left: 10px;
+            text-align: center;
+
+        }
+        .Menu{
+            background-color: burlywood;
+            border: 2px solid black;
+            width: 600px;
+            height: 50px;
+            align-self: auto;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-left: 10px;
+            
+
+
+        }
+
+        .Banner{
+            background-color: rgb(238, 231, 157);
+        width: 600px;
+        height: 100px;
+        border: 2px solid black;
+        box-sizing: border-box;
+        border: 1px solid black;;
+        background-image: url(code.jpg);
+        background-size: cover;
+    }
+    .Banner img{
+        width: 490px;
+        height: 100px;
+        margin-left: 55px;
+        margin-right: 30px;
+        background-image: url();
+
+    }
+
+    .JudulArtikel{
+        /* border: 2px solid black; */
+        box-sizing: border-box;
+        /* border: 1px solid black;; */
+        width: 600px;
+        height: 80px;
+        /* box-sizing: border-box; */
+        
+        /* text-align: center; */
+
+
+        }
+
+    .Konten{
+        width: 600px;
+        height: 400px;
+        background-color: cornflowerblue;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        /* border: 2px solid black; */
+        box-sizing: border-box;
+        overflow: auto;
+
+        /* border: 1px solid black;; */
+
+
+    }
+    .Konten img{
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+        float: left;
+
+
+    }
+
+
+    .Galery{
+        background-color: cadetblue;
+        width: 140px;
+        height: 100px;
+        margin: 5px 5px 5px 5px;
+        float: left;
+        background-image: url(code2.jpg);
+        background-size: cover;
+
+
+    }
+    .ribbon{
+        background-color: tr;
+        background-image: url(twitter.png);
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .cobaevent{
+        width: 75px;
+        height: 75px;
+        background-color: darkgreen;
+        border-radius: 10px;
+    }
+    .cobaevent1{
+        width: 75px;
+        height: 75px;
+        background-color: darkred;
+        border-radius: 10px;
+    }
+
+
+    /* .Footer{
+        padding-left: 10px;
+
+        border: 2px solid black;
+        box-sizing: border-box;
+        border: 1px solid black;;
+
+    } */
+
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="mode">
+            <br>
+            <button type="button" onclick="ubahwarna_dark()">Dark Mode</button>
+            <br>
+            <br>
+            <button type="button" onclick="ubahwarna_light()">Light Mode</button>
+    </div>
+    <div class="container">
+
+        <div class="ribbon"></div>
+        <div class="Judul">
+            <h1>My Website</h1>
+        </div>
+
+        <div class="Menu">
+            <a href="#">Home</a>
+            <a href="#">Profil</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <div class="Banner">
+            
+        </div>
+        <div class="JudulArtikel" >
+            <h1>Judul Artikel</h1>
+            <p>By : Alfedaivan</p>
+            
+        </div>
+        <div id="Konten" class="Konten">
+            <img src="iconub.png">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis incidunt doloremque consequuntur quisquam esse accusamus laborum iste tenetur repudiandae a dignissimos, natus maiores aut praesentium vel, fugit quasi eos.</p>
+            
+            
+
+            
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        <div class="Galery">
+        </div>
+        
+
+        <!-- <div class="Footer">
+            <p class="copyright">Copyright 2020</p>
+            
+        </div> -->
+
+
+
+
+
+    </div>
+    <div id="cobaevent" class="cobaevent" onmouseup="divkelakuan()" onmousedown="divkelakuan1()"></div>
+    
+
+    
+</body>
+
+<script>
+    function ubahwarna_dark(){
+        document.getElementById('Konten').style.backgroundColor="black";
+        document.getElementById('Konten').style.color="white";
+    }
+    function ubahwarna_light(){
+        document.getElementById('Konten').style.backgroundColor="cornflowerblue";
+        document.getElementById('Konten').style.color="black";
+    }
+    function divkelakuan(){
+        document.getElementById("cobaevent").className="cobaevent1";
+    }
+    function divkelakuan1(){
+        document.getElementById("cobaevent").className="cobaevent";
+    }
+    
+
+</script>
+</html>
